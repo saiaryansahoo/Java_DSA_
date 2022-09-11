@@ -1,6 +1,6 @@
 package jeet;
 
-//import java.util.Scanner;
+import java.util.Scanner;
 
 public class firstproject {
     public static void main(String[] args) {
@@ -29,10 +29,17 @@ public class firstproject {
 //            System.out.println("Salary is" + " "+ salary);
 //            System.out.println("Work Hard");
 //        }
-        for (int num=1; num <=10; num+=1){
-            System.out.println(num);
+
+        for (int num=1; num <=10; num+=1) {
+            System.out.println("Hello World");
 
         }
+
+
+
+
+
+
     }
 
 }
