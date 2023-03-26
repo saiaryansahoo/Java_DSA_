@@ -3,8 +3,25 @@ package jeet;
 import java.util.Scanner;
 
 public class firstproject {
-    public static void main(String[] args) {
+    public static void main (String[] args) {
        Scanner input=new Scanner(System.in);
+
+       System.out.print("Enter the First No:");
+        float a = input.nextFloat();
+       System.out.print("Enter the Second No:");
+        float b = input.nextFloat();
+       System.out.print("Enter the Third No:");
+        float c = input.nextFloat();
+
+       float max=a;
+       if (b>max){
+           max=b;
+       }
+       if (c>max){
+           max=c;
+        }
+        System.out.println(max);
+
 //        System.out.print("Enter Your Salary:"+ " ");
 //        int salary=input.nextInt();
 //
@@ -68,8 +85,8 @@ public class firstproject {
 //
 //        System.out.println(max);
 
-        char ch=input.next().trim().charAt(0);
-        System.out.println(input.next().trim()  );
+//        char ch=input.next().trim().charAt(0);
+//        System.out.println(input.next().trim()  );
 
     }
 
