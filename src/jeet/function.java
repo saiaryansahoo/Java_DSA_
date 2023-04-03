@@ -1,8 +1,5 @@
 package jeet;
 
-import java.util.Arrays;
-import java.util.Scanner;
-
 public class function {
 
     public static void main(String[] args) {
