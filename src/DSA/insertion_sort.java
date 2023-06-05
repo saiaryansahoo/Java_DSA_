@@ -1,8 +1,8 @@
-package jeet;
+package DSA;
 
 import java.util.Arrays;
 
-import static jeet.selection_sort.swap;
+import static DSA.selection_sort.swap;
 
 public class insertion_sort {
     public static void main(String[] args) {

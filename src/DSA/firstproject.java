@@ -1,4 +1,4 @@
-package jeet;
+package DSA;
 
 import java.util.Scanner;
 

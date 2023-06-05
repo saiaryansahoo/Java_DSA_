@@ -1,4 +1,4 @@
-package jeet;
+package DSA;
 
 public class binary_search_algo {
 

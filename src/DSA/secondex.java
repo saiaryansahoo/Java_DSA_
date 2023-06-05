@@ -1,4 +1,4 @@
-package jeet;
+package DSA;
 
 public class secondex {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package jeet;
+package DSA;
 
 public class arrays {
 

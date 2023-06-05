@@ -1,4 +1,4 @@
-package jeet;
+package DSA;
 
 public class linear_search_algorithm {
     public static void main(String[] args) {
