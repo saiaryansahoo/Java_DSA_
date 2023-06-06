@@ -7,7 +7,7 @@ public class binarysearch_using_recusrion {
         System.out.println(find(arr,target, 0, arr.length-1));
     }
     static int find(int[] arr, int target,int s, int e){
-        if (s>e){
+        if (s>e) {
             return -1;
         }
         int m=s+(e-s)/2;
