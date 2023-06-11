@@ -9,6 +9,6 @@ public class nto1 {
             return;
         }
         System.out.println(n);
-        fun(n+1);
+        fun(n-1);
     }
 }
