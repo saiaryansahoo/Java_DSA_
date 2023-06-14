@@ -1,8 +1,12 @@
 package java_questions_solved;
 
+import java.util.Arrays;
+
 public class selectionsort_recursion {
     public static void main(String[] args) {
-
+        int[]arr={54,30,22,1};
+        selection(arr,arr.length,0,0);
+        System.out.println(Arrays.toString(arr));
 
     }
     static void selection(int[]arr, int r, int c, int max){
