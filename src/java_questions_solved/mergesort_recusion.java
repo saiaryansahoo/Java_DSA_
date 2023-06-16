@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class mergesort_recusion {
     public static void main(String[] args) {
-        int[]arr={54,21,13,1,4};
+        int[]arr={23,42,12,9,4,65};
         int[] ans=merge(arr);
         System.out.println(Arrays.toString(ans));
     }
