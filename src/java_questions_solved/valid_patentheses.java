@@ -2,9 +2,9 @@ package java_questions_solved;
 
 public class valid_patentheses {
     public static void main(String[] args) {
-        String s = "()";
-        boolean isValid = parent(s);
-        System.out.println(isValid);
+        String s = "(){}[]";
+        boolean Valid = parent(s);
+        System.out.println(Valid);
     }
 
     static boolean parent(String s) {
