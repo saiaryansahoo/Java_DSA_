@@ -2,7 +2,7 @@ package java_questions_solved;
 
 public class sum_of_digits {
     public static void main(String[] args) {
-        int ans=sum(1342);
+        int ans=sum(134);
         System.out.println(ans);
     }
 
