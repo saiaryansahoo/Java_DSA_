@@ -2,7 +2,7 @@ package java_questions_solved;
 
 public class valid_patentheses {
     public static void main(String[] args) {
-        String s = "(){}[]";
+        String s = "(){} []";
         boolean Valid = parent(s);
         System.out.println(Valid);
     }
