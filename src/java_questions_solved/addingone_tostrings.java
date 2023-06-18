@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class addingone_tostrings {
     public static void main(String[] args) {
-        int[] digits={9,9};
+        int[] digits={9,9,0,9};
         System.out.println(Arrays.toString(plusOne(digits)));
     }
     static int[] plusOne(int[] digits){
