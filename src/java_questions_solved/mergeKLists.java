@@ -6,6 +6,7 @@ public class mergeKLists {
     }
     static int [] mergeKLists(ListNode[] lists){
 
+
     }
 
 }
