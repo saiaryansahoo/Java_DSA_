@@ -2,7 +2,7 @@ package java_questions_solved;
 
 public class triangle_pattern {
     public static void main(String[] args) {
-        triangle(5,0);
+        triangle(6,0);
     }
     static void triangle(int r, int c){
         if(r == 0){
