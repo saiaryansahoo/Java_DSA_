@@ -17,9 +17,9 @@ public class oops_one {
         System.out.println(Aryan.name);
         System.out.println(Aryan.marks);
     }
-    static class Student{
-        int rno;
-        String name;
-        float marks;
-    }
+}
+class Student{
+    int rno;
+    String name;
+    float marks;
 }
