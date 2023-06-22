@@ -2,7 +2,7 @@ package java_questions_solved;
 
 import java.util.Scanner;
 
-public class totalNumberofPrimeNo_upto {
+public class combinationNumbers {
     static int phi(int n)
     {
         // Initialize result as n
