@@ -44,8 +44,8 @@ public class combinationNumbers {
     {
         //	int n=1000;
         Scanner n1 = new Scanner(System.in);
-        System.out.print("Prime Number Upto: ");
+        System.out.print("Combination Number's Upto: ");
         int n = n1.nextInt();
-        System.out.println("Total No's of Prime Number upto: "+ phi(n));
+        System.out.println("Total No's of Combination Number's upto: "+ phi(n));
     }
 }
