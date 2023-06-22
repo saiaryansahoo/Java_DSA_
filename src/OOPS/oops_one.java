@@ -7,7 +7,7 @@ public class oops_one {
 //        Student[] students=new Student[5];//new keyword is used for dynamic memory allocation
 //        Student Aryan;
 //        System.out.println(Student(12,"Aryan",12.4));
-//        Student Aryan=new Student();//Student() is a constructor
+//        Student Aryan=new Student();//where Student() is a constructor
 //        Aryan.rno=10975;
 //        Aryan.name="Aryan";
 //        Aryan.marks=8.14f;
