@@ -35,7 +35,7 @@ public class combinationNumbers {
         // (There can be at-most
         // one such prime factor)
         if (n > 1)
-            result = result- result  /n;
+            result = result- result/n;
         return result;
     }
 
