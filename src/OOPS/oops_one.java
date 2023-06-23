@@ -17,6 +17,9 @@ public class oops_one {
         System.out.println(Aryan.marks);
 //        Aryan.changeName("Jeet Sahoo");
 //        Aryan.sayhello();
+
+        Student Jeet=new Student();
+        System.out.println(Jeet.name);
     }
 }
 class Student{
@@ -32,11 +35,11 @@ class Student{
         this.name=newName;
     }
 
-//    Student (){
-//        this.rno=10975;
-//        this.name="Aryan Sahoo";
-//        this.marks=8.14f;
-//    }
+    Student (){
+        this.rno=10975;
+        this.name="Aryan Sahoo";
+        this.marks=8.14f;
+    }
 
     Student(int rno, String name, float marks){
         this.rno=rno;
