@@ -1,6 +1,4 @@
-package OOPS;
-
-import java.util.Arrays;
+package DSA.OOPS;
 
 public class oops_one {
     public static void main(String[] args) {
