@@ -19,8 +19,14 @@ public class oops_one {
         Student Jeet=new Student();
         System.out.println(Jeet.name);
 
+        Jeet.sayhello();
+
+
+
         final int bonus=2;
         System.out.println(bonus);
+
+
     }
 }
 class Student{
@@ -32,9 +38,9 @@ class Student{
         System.out.println("Hey! My name is " + this.name);
     }
 
-    void changeName(String newName){
-        this.name=newName;
-    }
+//    void changeName(String newName){
+//        this.name=newName;
+//    }
 
     Student (){
         this.rno=10975;
