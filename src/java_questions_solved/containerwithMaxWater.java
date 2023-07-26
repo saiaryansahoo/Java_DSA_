@@ -15,9 +15,9 @@ public class containerwithMaxWater {
             int lh=height[l];
             int rh=height[r];
             int min_h=Math.min(lh,rh);//height
-            int len=r-1;//length
-            int area=min_h*len;//area
-            max= Math.max(max,area);
+            int len=r-l;//length
+            int area=min_h*len;
+            max= Math.max(max,area);//area
             if(lh<rh) l++;
             else r--;
         }
