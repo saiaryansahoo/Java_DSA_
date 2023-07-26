@@ -18,6 +18,9 @@ public class oops_one {
 
         Student Jeet=new Student();
         System.out.println(Jeet.name);
+
+        final int bonus=2;
+        System.out.println(bonus);
     }
 }
 class Student{
