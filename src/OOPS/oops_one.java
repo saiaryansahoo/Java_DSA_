@@ -13,13 +13,12 @@ public class oops_one {
         System.out.println(Aryan.rno);
         System.out.println(Aryan.name);
         System.out.println(Aryan.marks);
-//        Aryan.changeName("Jeet Sahoo");
-//        Aryan.sayhello();
+        Aryan.changeName("Jeet Sahoo");
+        //Aryan.sayhello();
 
         Student Jeet=new Student();
         System.out.println(Jeet.name);
 
-        Jeet.sayhello();
 
 
 
@@ -38,9 +37,9 @@ class Student{
         System.out.println("Hey! My name is " + this.name);
     }
 
-//    void changeName(String newName){
-//        this.name=newName;
-//    }
+    void changeName(String newName){
+        this.name=newName;
+    }
 
     Student (){
         this.rno=10975;
