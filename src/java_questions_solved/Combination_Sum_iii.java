@@ -7,7 +7,7 @@ import java.util.List;
 public class Combination_Sum_iii {
     public static void main(String[] args) {
         int k=3;
-        int n=9;
+        int n=11;
         System.out.println(combinationSum3(k,n));
     }
     public static List<List<Integer>> combinationSum3(int k, int n){
