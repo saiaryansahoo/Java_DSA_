@@ -2,8 +2,8 @@ package java_questions_solved;
 
 public class Bulls_And_Cows {
     public static void main(String[] args) {
-        String secret="1807";
-        String guess="7810";
+        String secret="1806";
+        String guess="6810";
         System.out.println(getHint(secret,guess));
     }
     static String getHint(String secret, String guess){
