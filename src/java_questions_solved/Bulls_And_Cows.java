@@ -5,7 +5,6 @@ public class Bulls_And_Cows {
         String secret="1806";
         String guess="6810";
         System.out.println(getHint(secret,guess));
-
     }
     static String getHint(String secret, String guess){
          int bulls=0, cows=0;
