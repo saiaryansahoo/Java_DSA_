@@ -5,6 +5,7 @@ public class climbStairs {
 
         System.out.println(climbStairs(8));
     }
+
     static int climbStairs(int n) {
         if (n <= 3) {
             return n;
