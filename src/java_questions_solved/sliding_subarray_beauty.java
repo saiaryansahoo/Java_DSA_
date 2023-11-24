@@ -6,7 +6,6 @@ public class sliding_subarray_beauty {
             public int[] getSubarrayBeauty(int[] nums, int k, int x) {
                 int n = nums.length;
                 int[] rslt = new int[n-k+1];
-
                 int[] bucket = new int[101];
 
                 for(int i = 0; i < k; i++){
