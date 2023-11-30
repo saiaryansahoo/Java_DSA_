@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/JAVA+DSA.iml" filepath="$PROJECT_DIR$/JAVA+DSA.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../Spring Boot/Spring Boot.iml" filepath="$PROJECT_DIR$/../../Spring Boot/Spring Boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../cpp_vit/cpp_vit.iml" filepath="$PROJECT_DIR$/../../cpp_vit/cpp_vit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../cpp_vit/tcs_codevita/tcs_codevita.iml" filepath="$PROJECT_DIR$/../../cpp_vit/tcs_codevita/tcs_codevita.iml" />
     </modules>
   </component>
 </project>
