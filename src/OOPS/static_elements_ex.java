@@ -1,5 +1,4 @@
 package OOPS;
-
 public class static_elements_ex {
     int age;
     String name;
