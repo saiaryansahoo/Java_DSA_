@@ -12,10 +12,10 @@ public class box {
         this.w=-1;
     }
 
-    box(double length, double height, double weight) {
-        this.l = length;
-        this.h = height;
-        this.w = weight;
+    box(double l, double h, double w) {
+        this.l = l;
+        this.h = h;
+        this.w = w;
     }
 
     public void running(){
