@@ -23,7 +23,7 @@ public class longestSubstring_WithoutRepeating_char {
             else
             {
                 seen.remove(s.charAt(i));
-                i++;//last charec index
+                i++;
             }
         }
         return max;
