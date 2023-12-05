@@ -10,7 +10,7 @@ public class groupAnagrams {
         System.out.println(result);
     }
     public static List<List<String>> solution(String[] strs){
-        Map<String,List<String>> groups = new HashMap();
+        Map<String,List<String>> groups = new HashMap<>();
 
         for(String word : strs){
             char[] chars = word.toCharArray();
