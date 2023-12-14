@@ -15,8 +15,6 @@ public class DifferenceBetweenOnesandZerosinRowandColumn {
         }
     }
 }
-
-
 class Solution2 {
     public int[][] onesMinusZeros(int[][] grid) {
         int row[]= new int[grid.length];
