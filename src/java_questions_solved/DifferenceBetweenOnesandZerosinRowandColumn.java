@@ -6,7 +6,6 @@ public class DifferenceBetweenOnesandZerosinRowandColumn {
         int[][] matrix = {{0, 1, 1}, {1, 0, 1}, {0, 1, 1}};
         int[][] resultMatrix = result.onesMinusZeros(matrix);
 
-        // Print the resultMatrix
         for (int i = 0; i < resultMatrix.length; i++) {
             for (int j = 0; j < resultMatrix[i].length; j++) {
                 System.out.print(resultMatrix[i][j] + " ");
