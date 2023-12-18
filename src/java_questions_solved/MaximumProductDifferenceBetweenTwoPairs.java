@@ -13,10 +13,10 @@ class Solution6 {
             return 0;
         }
 
-        int min1 = nums[0]; //Smallest
-        int min2 = nums[1]; //Second Smallest
-        int max1 = nums[1]; //Largest
-        int max2 = nums[0]; //Second Largest
+        int min1 = nums[0];
+        int min2 = nums[1];
+        int max1 = nums[1];
+        int max2 = nums[0];
         if(nums[0] > nums[1]){
             min1 = nums[1];
             min2 = nums[0];
