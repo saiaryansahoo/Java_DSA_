@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class MergeSort_UsingRecursion {
     public static void main(String[] args) {
-        int[] arr={5,4,3,2,1};
+        int[] arr={9,8,7,6,5,4,3,2,1};
         arr=sort(arr);
         System.out.println(Arrays.toString(arr));
     }
@@ -20,7 +20,7 @@ public class MergeSort_UsingRecursion {
     }
 
     private static int[] merge(int[] first, int[] second) {
-        int[] mix=new int[first.length+ second.length];
+        int[] mix=new int[first.length + second.length];
 
         int i=0;
         int j=0;
