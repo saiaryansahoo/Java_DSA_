@@ -37,7 +37,6 @@ class Solution14 {
                 count = 1;
             }
         }
-
         if (count < 2)
             return -1;
 
@@ -54,7 +53,6 @@ class Solution14 {
             w = (count - (3 * q)) / 2;
             ans += q + w;
         }
-
         return ans;
     }
 }
