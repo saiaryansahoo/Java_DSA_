@@ -23,7 +23,6 @@ public class SubSet {
                 outer.add(internal);
             }
         }
-
         return outer;
     }
 }
