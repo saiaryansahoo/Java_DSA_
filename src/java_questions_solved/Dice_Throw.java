@@ -2,7 +2,7 @@ package java_questions_solved;
 
 public class Dice_Throw {
     public static void main(String[] args) {
-        dice("",4);
+        dice("",7);
     }
     static void dice(String p, int target){
         if(target == 0){
