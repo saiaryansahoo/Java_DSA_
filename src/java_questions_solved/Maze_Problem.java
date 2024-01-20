@@ -2,12 +2,22 @@ package java_questions_solved;
 
 import java.util.ArrayList;
 
-public class Counting_Paths {
+public class Maze_Problem {
     public static void main(String[] args) {
         System.out.println(countpaths(3,3));
+
         printpath("",3,3);
+
         System.out.println(returnPath("",3,3));
+
         System.out.println(diagonalPaths("",3,3));
+
+        boolean[][] board={
+                {true,true,true},
+                {false,false,true},
+                {true,true,false},
+        };
+        obstaclesPath("",board,0,0);
     }
     //counting paths
     static int countpaths(int row, int column){
@@ -73,5 +83,23 @@ public class Counting_Paths {
             list.addAll(diagonalPaths(path+'H',row,column-1));
         }
         return list;
+    }
+
+    //path with obstacles
+    static void obstaclesPath(String path,boolean[][] maze, int row, int column){
+        if(row== maze.length-1 && column==maze[0].length-1){
+            System.out.println(path);
+            return;
+        }
+        if(!maze[row][column]){
+            return;
+        }
+
+        if(row<maze.length-1){
+            obstaclesPath(path+'D',maze,row+1,column);
+        }
+        if(column< maze[0].length-1){
+            obstaclesPath(path+'R',maze, row,column+1);
+        }
     }
 }
