@@ -6,7 +6,7 @@ public class MazeProblem_inAllDirections {
     public static void main(String[] args) {
         boolean[][] board={
                 {true,true,true},
-                {true,true,true},
+                {true,false,true},
                 {true,true,true},
         };
         int[][] paths=new int[board.length][board[0].length];
