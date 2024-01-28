@@ -2,7 +2,6 @@ package Solved_Questions;
 
 public class N_Knights {
     public static void main(String[] args) {
-
     }
     static void knight(int[][] board, int row, int col, int knights){
         if(knights==0){
