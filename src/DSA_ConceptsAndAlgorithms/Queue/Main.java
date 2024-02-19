@@ -2,13 +2,23 @@ package DSA_ConceptsAndAlgorithms.Queue;
 
 public class Main {
     public static void main(String[] args) {
-        Queue q=new Queue();
-        q.EnQueue(12);
-        q.EnQueue(11);
-        q.EnQueue(10);
-        q.EnQueue(9);
+        Queue queue=new Queue();
 
-        q.Show();
+        queue.EnQueue(12);
+        queue.EnQueue(1);
+        queue.EnQueue(13);
+        queue.EnQueue(2);
+        queue.EnQueue(14);
 
+        queue.DeQueue();
+        queue.EnQueue(3);
+
+        queue.getSize();
+        System.out.println(queue.isEmpty());
+        System.out.println(queue.isFull());
+
+
+
+        queue.Show();
     }
 }
