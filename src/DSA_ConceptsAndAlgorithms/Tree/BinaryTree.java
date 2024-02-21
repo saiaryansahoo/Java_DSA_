@@ -29,6 +29,18 @@ public class BinaryTree {
             inOrderRecursion(root.right);
         }
     }
+
+    public void preOrder(){
+        preOrderRecursion(root);
+    }
+
+    public void preOrderRecursion(Node root){
+        if(root != null){
+            System.out.print(root.data+" ");
+            inOrderRecursion(root.left);
+            inOrderRecursion(root.right);
+        }
+    }
 }
 
 class Node{
