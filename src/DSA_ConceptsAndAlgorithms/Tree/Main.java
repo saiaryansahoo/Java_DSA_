@@ -10,6 +10,8 @@ public class Main {
         tree.insert(1);
         tree.insert(6);
 
+        tree.preOrder();
+
         tree.inOrder();
     }
 }
