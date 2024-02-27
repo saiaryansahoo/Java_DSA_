@@ -1,9 +1,9 @@
-package HashSet;
+package HashSetAndMap;
 
 import java.util.HashSet;
 import java.util.Iterator;
 
-public class Hashing {
+public class Hash_Set {
     public static void main(String[] args) {
         HashSet<Integer> hash=new HashSet<>();
 
