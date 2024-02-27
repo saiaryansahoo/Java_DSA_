@@ -1,6 +1,5 @@
 package HashSetAndMap;
 
-import java.util.HashMap;
 import java.util.*;
 
 public class Hash_Map {
@@ -20,5 +19,18 @@ public class Hash_Map {
         else System.out.println("Not present in the map");
 
         System.out.println(map.get("Aryan"));
+
+        System.out.println(map.entrySet());
+
+        for(Map.Entry<String,Integer> e:map.entrySet())
+            System.out.println("Name is: "+ e.getKey() + " And" +" Age = "+ e.getValue());
+
+
+        Set<String> keys=map.keySet();
+        for (String key : keys) System.out.print(key+" "+map.get(key)+" ");
+        System.out.println();
+
+        map.remove("Aryan");
+        System.out.println(map);
     }
 }
