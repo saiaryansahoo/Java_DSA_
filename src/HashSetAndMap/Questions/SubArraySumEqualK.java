@@ -4,8 +4,8 @@ import java.util.HashMap;
 
 public class SubArraySumEqualK {
     public static void main(String[] args) {
-        int[] arr={10,2,-2,-20,10};
-        int k=-10;
+        int[] arr={1,4,8,13};
+        int k=5;
 
         HashMap<Integer,Integer>map=new HashMap<>();
         map.put(0,1);
