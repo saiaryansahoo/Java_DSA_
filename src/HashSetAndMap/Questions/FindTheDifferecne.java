@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class FindTheDifferecne {
     public static void main(String[] args) {
         String s = "abcd";
-        String t="abcde";
+        String t="abcdef";
         System.out.println(findTheDifference(s,t));
     }
     public static char findTheDifference(String s, String t) {
