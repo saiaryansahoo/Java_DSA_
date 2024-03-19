@@ -4,7 +4,7 @@ import java.util.HashSet;
 
 public class IntersectionOfTwoArrays {
     public static void main(String[] args) {
-        int[] arr1={7,3,9};
+        int[] arr1={7,3,8,9};
         int[] arr2={6,3,9,2,9,4};
         Intersection(arr1,arr2);
     }
