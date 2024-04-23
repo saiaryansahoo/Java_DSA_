@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class ThirdMaximumNumber {
     public static void main(String[] args) {
         int[] nums={3,2,1};
+
         maxNumber num=new maxNumber();
         System.out.println(num.thirdMax(nums));
     }
