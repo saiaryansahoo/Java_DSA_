@@ -7,7 +7,7 @@ public class binary_search_algo {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         int[]arr= {-18,-2,0,8,16,32,78,96,99};
-        int target=96;
+        int target=19;
         int ans =binarySearch(arr,target);
         System.out.println(ans);
     }
