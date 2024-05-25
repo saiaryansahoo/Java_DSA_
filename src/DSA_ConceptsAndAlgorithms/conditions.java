@@ -11,7 +11,7 @@ public class conditions {
         float no2=input.nextFloat();
         float sum=no1+no2;
        if (sum>=10){
-           System.out.println("Correct");
+           System.out.println("Right");
 
         }
         if (sum<10 && sum>2){
