@@ -13,6 +13,7 @@ public class PostfixToInfix {
     }
     public static int expresssion(String postfix){
         Stack<Integer> s=new Stack<>();
+
         int val1,val2;
         for (int i = 0; i < postfix.length(); i++) {
             char ch=postfix.charAt(i);
