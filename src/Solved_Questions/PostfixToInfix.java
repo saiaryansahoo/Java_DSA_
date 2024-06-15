@@ -5,11 +5,10 @@ import java.util.Stack;
 
 public class PostfixToInfix {
     public static void main(String[] args) {
-//        write driver code for testcases
         Scanner sc=new Scanner(System.in);
         String postfix="534*+";
 
-        System.out.println(expresssion(postfix.toString());
+        System.out.println(expresssion(postfix.toString()));
     }
     public static int expresssion(String postfix){
         Stack<Integer> s=new Stack<>();
