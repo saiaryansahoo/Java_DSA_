@@ -4,7 +4,7 @@ import java.util.HashSet;
 
 public class longestSubstringNonRepeating {
     public static void main(String[] args) {
-        String str = "pwwkew";
+        String str = "pwwkffew";
         System.out.println(longestSubstring(str));
     }
 
