@@ -6,7 +6,7 @@ import java.util.Stack;
 public class PostfixToInfix {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        String postfix="534*+";
+        String postfix="53124*+";
 
         System.out.println(expresssion(postfix.toString()));
     }
