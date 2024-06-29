@@ -1,7 +1,7 @@
 package DSA_ConceptsAndAlgorithms;
 
 import java.util.Comparator;
-import java.util.PriorityQueue;
+import java.util.*;
 
 public class priorityQueue {
     public static void main(String[] args) {
@@ -12,6 +12,7 @@ public class priorityQueue {
         pq.add(4);
         pq.add(0);
         pq.add(11);
+        pq.remove(2);
 
         while(!pq.isEmpty()){
             System.out.print(pq.peek()+"->");
