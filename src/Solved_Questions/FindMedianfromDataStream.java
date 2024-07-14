@@ -41,6 +41,7 @@ class MedianFinder {
         MedianFinder medianFinder = new MedianFinder();
 
         // Example usage:
+
         medianFinder.addNum(5);
         medianFinder.addNum(2);
         medianFinder.addNum(7);
