@@ -39,6 +39,6 @@ public class MinimumTimeDifference {
     public static void main(String[] args) {
         Solution sol = new Solution();
         List<String> timePoints = Arrays.asList("23:59", "00:00", "12:30");
-        System.out.println(sol.findMinDifference(timePoints));  // Output: 1
+        System.out.println(sol.findMinDifference(timePoints));
     }
 }
