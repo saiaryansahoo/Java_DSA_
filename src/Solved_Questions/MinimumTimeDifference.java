@@ -6,9 +6,6 @@ import java.util.Collections;
 import java.util.List;
 
 public class MinimumTimeDifference {
-    public static void main(String[] args) {
-
-    }
     public static int findMinDifference(List<String> timePoints) {
         List<Integer> minutes = new ArrayList<>();
         for (String time : timePoints) {
@@ -39,6 +36,6 @@ public class MinimumTimeDifference {
     public static void main(String[] args) {
         Solution sol = new Solution();
         List<String> timePoints = Arrays.asList("23:59", "00:00", "12:30");
-        System.out.println(sol.findMinDifference(timePoints));
+        System.out.println(findMinDifference(timePoints));
     }
 }
