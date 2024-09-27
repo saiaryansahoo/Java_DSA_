@@ -30,6 +30,7 @@ public class bobHalloween {
                 break;
             }
         }
+
         System.out.println(count);
     }
 }
