@@ -8,7 +8,7 @@ public class reverseAString {
     }
 
     private static String reverseString(String word) {
-        StringBuilder sb=new StringBuilder();
+        StringBuilder sb = new StringBuilder();
         return sb.reverse().toString();
 //        char[] charArray=word.toCharArray();
 //        String reverse="";

@@ -3,35 +3,20 @@ package DSA_ConceptsAndAlgorithms;
 import java.util.Arrays;
 
 public class selection_sort {
-       public static void main(String[] args) {
-        int[]arr={40,9,-111,0,361,99};
-        selectionsort(arr);
-            System.out.println(Arrays.toString(arr));
+    public static void main(String[] args) {
+        int[] arr={64,25,12,22,11};
 
-
-    }
-
- static void selectionsort (int[]arr){
-     for (int i = 0; i < arr.length; i++) {
-         int last=arr.length-i-1;
-         int maxIndex=getMaxindex(arr,0, last);
-         swap(arr,maxIndex,last);
-
-     }
- }
-
- static void swap(int[]arr, int first, int second){
-        int temp=arr[first];
-        arr[first]=arr[second];
-        arr[second]=temp;
- }
-  private static int getMaxindex(int[] arr, int start, int end) {
-    int max=start;
-        for (int i = start; i <= end; i++) {
-            if (arr[max]<arr[i])
-                max=i;
-
+        for (int i = 0; i < arr.length; i++) {
+            int minIdx=i;
+            for (int j = i+1; j < arr.length; j++) {
+                if(arr[j]<arr[minIdx]) {
+                    minIdx=j;
+                }
+            }
+            int temp=arr[i];
+            arr[i]=arr[minIdx];
+            arr[minIdx]=temp;
         }
-      return max;
-  }
+        System.out.println(Arrays.toString(arr));
+    }
 }
