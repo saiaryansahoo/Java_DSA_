@@ -30,7 +30,27 @@ class Node{
 //        inOrder(root);
 
 //        System.out.println(LCA(root,4,5).data);
-        System.out.println((calculateHeight(root)));
+//        System.out.println((calculateHeight(root)));
+
+
+        printLeafNode(root);
+    }
+
+    private static void printLeafNode(Node root) {
+        if(root==null) return;
+
+        if(root.left==null && root.right==null){
+            System.out.println(root.data+" ");
+            return;
+        }
+
+        if(root.left!=null){
+            printLeafNode(root.left);
+        }
+
+        if(root.right!=null) {
+            printLeafNode(root.right);
+        }
     }
 
     private static void inOrder(Node root) {
@@ -92,5 +112,6 @@ class Node{
         diameter = Math.max(diameter, leftHeight + rightHeight);
         return Math.max(leftHeight, rightHeight) + 1;
     }
+
 
 }
