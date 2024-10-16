@@ -11,19 +11,19 @@ public class pallindrome {
     }
 
     private static boolean pallindromeIs(String str) {
-//        String sb=new StringBuilder(str).reverse().toString();
-//        return sb.equals(str);
+        String sb=new StringBuilder(str).reverse().toString();
+        return sb.equals(str);
 
-        int left=0;
-        int right=str.length()-1;
-
-        while(left<right){
-            if(str.charAt(left)!=str.charAt(right)) {
-                return false;
-            }
-            left++;
-            right--;
-        }
-        return true;
+//        int left=0;
+//        int right=str.length()-1;
+//
+//        while(left<right){
+//            if(str.charAt(left)!=str.charAt(right)) {
+//                return false;
+//            }
+//            left++;
+//            right--;
+//        }
+//        return true;
     }
 }
